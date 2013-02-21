@@ -2,6 +2,8 @@
 
 Материалы курса будут появлятся в разделе <a href="https://github.com/dbardin/tmp_course/blob/master/lectures.md">Лекции</a> 
 
+В папке tasks будут появляться домашние задания.
+
 Для работы вам нужен аккаунт на github.
 
 Установка для <a href="http://windows.github.com/">Windows</a>
@@ -23,7 +25,9 @@
 <a href="http://www.springsource.org/downloads/sts-ggts">Spring Source Tool Suite</a><br/>
 <a href="http://www.jetbrains.com/idea/download/download_thanks.jsp">IntelliJ IDEA</a><br/>
 
-**не рекомендуется  работать с помощью notepad.exe**
+**не рекомендуется  работать с помощью notepad.exe**<br/>
+
+<b>Для написания программ необходимо руководствоваться <a href="http://www.oracle.com/technetwork/java/codeconv-138413.html">соглашениями по оформлению кода от Oracle (Code Conventions)</a></b>
 
 <h3>Литература курса</h3>
 1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)<br/>
