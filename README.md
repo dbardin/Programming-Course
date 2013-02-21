@@ -6,7 +6,7 @@
 
 Для работы вам нужен аккаунт на github.
 
-Установка для <a href="http://windows.github.com/">Windows</a>
+Установка для <a href="http://windows.github.com/" target="_blank">Windows</a>
 
 <h3>Workflow(принцип работы)</h3>
 
@@ -22,12 +22,12 @@
 
 <h3>IDE для работы</h3>
 
-<a href="http://www.springsource.org/downloads/sts-ggts">Spring Source Tool Suite</a><br/>
-<a href="http://www.jetbrains.com/idea/download/download_thanks.jsp">IntelliJ IDEA</a><br/>
+<a href="http://www.springsource.org/downloads/sts-ggts" target="_blank">Spring Source Tool Suite</a><br/>
+<a href="http://www.jetbrains.com/idea/download/download_thanks.jsp" target="_blank">IntelliJ IDEA</a><br/>
 
 **не рекомендуется  работать с помощью notepad.exe**<br/>
 
-<b>Для написания программ необходимо руководствоваться <a href="http://www.oracle.com/technetwork/java/codeconv-138413.html">соглашениями по оформлению кода от Oracle (Code Conventions)</a></b>
+<b>Для написания программ необходимо руководствоваться <a href="http://www.oracle.com/technetwork/java/codeconv-138413.html" target="_blank">соглашениями по оформлению кода от Oracle (Code Conventions)</a></b>
 
 <h3>Литература курса</h3>
 1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)<br/>
