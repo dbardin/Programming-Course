@@ -2,7 +2,7 @@
 
 Материалы курса будут появлятся в разделе <a href="https://github.com/dbardin/tmp_course/blob/master/lectures.md">Лекции</a> 
 
-В папке <a href="https://github.com/dbardin/tmp_course/tree/master/tasks" target="_blank">tasks</a> будут появляться домашние задания.
+В папке <a href="https://github.com/dbardin/tmp_course/tree/master/tasks">tasks</a> будут появляться домашние задания.
 
 Для работы вам нужен аккаунт на github.
 
