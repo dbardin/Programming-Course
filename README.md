@@ -2,7 +2,7 @@
 
 Материалы курса будут появлятся в разделе <a href="https://github.com/dbardin/tmp_course/blob/master/lectures.md">Лекции</a> 
 
-В папке tasks будут появляться домашние задания.
+В папке <a href="https://github.com/dbardin/tmp_course/tree/master/tasks" target="_blank">tasks</a> будут появляться домашние задания.
 
 Для работы вам нужен аккаунт на github.
 
@@ -30,7 +30,10 @@
 <b>Для написания программ необходимо руководствоваться <a href="http://www.oracle.com/technetwork/java/codeconv-138413.html" target="_blank">соглашениями по оформлению кода от Oracle (Code Conventions)</a></b>
 
 <h3>Литература курса</h3>
-1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)<br/>
-2.Брюс Эккель - Философия Java (Thinking in Java)<br/>
-3.Стив Макконел - Совершенный код (Code Complete)<br/>
-4.<a href="http://dl.dropbox.com/u/281916/delete/book.pdf" target="_blank">Git</a>
+<ul style="list-style:none">
+<li><span style="float: left">1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)</span> <img src="http://static2.ozone.ru/multimedia/books_covers/c200/1004121257.jpg" style="height:100px;width:100px;"/></li>
+<li><span style="float: left">2.Брюс Эккель - Философия Java (Thinking in Java)</span><img src="http://static.ozone.ru/multimedia/books_covers/c200/1000896427.jpg" style="height:100px;width:100px"/></li>
+<li><span style="float: left">3.Стив Макконел - Совершенный код (Code Complete)</span><img src="http://static.ozone.ru/multimedia/books_covers/c200/1001969331.jpg" style="height:100px;width:100px"/></li>
+<li><a href="http://dl.dropbox.com/u/281916/delete/book.pdf" target="_blank">4.Git</a></span></li>
+</ul>
+
