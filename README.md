@@ -31,9 +31,14 @@
 
 <h3>Литература курса</h3>
 <ul style="list-style:none">
-<li><span style="float: left">1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)</span> <img src="http://static2.ozone.ru/multimedia/books_covers/c200/1004121257.jpg" style="height:100px;width:100px;"/></li>
-<li><span style="float: left">2.Брюс Эккель - Философия Java (Thinking in Java)</span><img src="http://static.ozone.ru/multimedia/books_covers/c200/1000896427.jpg" style="height:100px;width:100px"/></li>
-<li><span style="float: left">3.Стив Макконел - Совершенный код (Code Complete)</span><img src="http://static.ozone.ru/multimedia/books_covers/c200/1001969331.jpg" style="height:100px;width:100px"/></li>
-<li><a href="http://dl.dropbox.com/u/281916/delete/book.pdf" target="_blank">4.Git</a></span></li>
+<li>1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)</li>
+<li>2.Брюс Эккель - Философия Java (Thinking in Java)</li>
+<li>3.Стив Макконел - Совершенный код (Code Complete)/li>
+<li><a href="http://dl.dropbox.com/u/281916/delete/book.pdf" target="_blank">4.Git</a></li>
 </ul>
+<div id="covers">
+<img src="http://static2.ozone.ru/multimedia/books_covers/c200/1004121257.jpg" style="height:100px;width:100px;"/>
+<img src="http://static.ozone.ru/multimedia/books_covers/c200/1000896427.jpg" style="height:100px;width:100px"/>
+<img src="http://static.ozone.ru/multimedia/books_covers/c200/1001969331.jpg" style="height:100px;width:100px"/>
+</div>
 
