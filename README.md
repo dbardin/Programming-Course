@@ -33,3 +33,4 @@
 1.Кэти Сьерра, Берт Бейтс - Изучаем Java (Head First Java)<br/>
 2.Брюс Эккель - Философия Java (Thinking in Java)<br/>
 3.Стив Макконел - Совершенный код (Code Complete)
+4.<a href="http://dl.dropbox.com/u/281916/delete/book.pdf" target="_blank">Git</a>
