@@ -8,3 +8,7 @@
 
 <h3><a href="https://www.dropbox.com/s/892xz1qlarz3zcr/java_02.pdf" target="_blank">Лекция 3</a><br/></h3>
 
+<h3><a href="https://www.dropbox.com/s/ahmqcda6fsrf5ah/java_3.pdf" target="_blank">Лекция 4</a><br/></h3>
+
+
+
