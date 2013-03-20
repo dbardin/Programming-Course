@@ -3,7 +3,7 @@
  *
  */
 
-package src.ru.mai.is.tmp.students.vgorshkov.homework.integral;;
+package ru.mai.is.tmp.students.vgorshkov.homework.integral;;
 
 /**
  *
