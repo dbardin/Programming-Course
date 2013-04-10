@@ -23,7 +23,7 @@
 <li><h4><a href="http://jeeconf.com/archive/jeeconf-2012/materials/jenkins/" target="_blank">Jenkins</a></h4></li>
 </ul>
 
-<h3><a href="https://www.dropbox.com/s/e8mvrcgaza7o0re/java_5.pdf" target="_blank">Лекция 7</a><br/></h3>
+<h3><a href="https://www.dropbox.com/s/e8mvrcgaza7o0re/java_5.pdf" target="_blank">Лекция 8</a><br/></h3>
 
 
 
