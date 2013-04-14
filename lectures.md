@@ -25,6 +25,9 @@
 
 <h3><a href="https://www.dropbox.com/s/e8mvrcgaza7o0re/java_5.pdf" target="_blank">Лекция 8</a><br/></h3>
 
+<h3><a href="https://www.dropbox.com/s/rbuuvb0mim2l5vz/java6_7.pdf" target="_blank">Лекция 9-10</a><br/></h3>
+
+
 
 
 
