@@ -9,8 +9,13 @@ public class Homework01_3_1 {
     public static void main(String[] args){
         Input t=new Input();
         String s=t.getUserInput("Введите число");
+<<<<<<< HEAD
+        int vvchislo=Integer.parseInt(s);
+        if (vvchislo%2==0) {
+=======
         int n=Integer.parseInt(s);
         if (n%2==0) {
+>>>>>>> 4f5d95edd47ca369ff0ab1632ed6a1bf6c339da1
             System.out.println("Число четное");
         } else {
             System.out.println("Число нечетное");

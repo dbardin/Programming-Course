@@ -10,6 +10,16 @@
  */
 public class Homework01_5 {
     public static void main(String[] args){
+<<<<<<< HEAD
+        int Chisloper=1;//Первое число
+        int Chislovtor=1;//Второе число
+        int i=0;//Счетчик количества выведеных чисел
+        while(i<10){
+            System.out.print(chisloper+","+chislovtor+",");//Выводим два числа
+            i=i+2;
+            chisloper=chisloper+Chislovtor;//меняем первое число присваивая ему значение суммы двух предыдущих
+            Chislovtor=chisloper+Chislovtor;//меняем второе число присваивая ему значение суммы двух предыдущих
+=======
         int n=1;//Первое число
         int d=1;//Второе число
         int i=0;//Счетчик количества выведеных чисел
@@ -18,6 +28,7 @@ public class Homework01_5 {
             i=i+2;
             n=n+d;//меняем первое число присваивая ему значение суммы двух предыдущих
             d=n+d;//меняем второе число присваивая ему значение суммы двух предыдущих
+>>>>>>> 4f5d95edd47ca369ff0ab1632ed6a1bf6c339da1
         }
     }
 }
