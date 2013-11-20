@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created with IntelliJ IDEA.
  * User: упс
  * Date: 11.11.13
@@ -8,13 +8,13 @@
 public class Hm01_2 {
    public static void main(String[] args){
        Input t=new Input();
-       String s=t.getUserInput("Введите число");
-       int n=Integer.parseInt(s);
-       int c;
-       int S=0;
+       String sum=t.getUserInput("Введите число");
+       int n=Integer.parseInt(Sum);
+       int oct;
+       int Sum=0;
        while (n>0) {
-            c=n%10;
-            S=S+c;
+            oct=n%10;
+            Sum=Sum+c;
             n=n/10;
             }
         System.out.println(S);
