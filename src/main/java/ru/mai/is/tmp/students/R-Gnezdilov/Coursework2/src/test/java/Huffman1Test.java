@@ -1,3 +1,5 @@
+package ru.mai.is.tmp.students.R-Gnezdilov.Coursework2.src.main.test.java;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;

@@ -1,3 +1,5 @@
+package ru.mai.is.tmp.students.R-Gnezdilov.Coursework2.src.main.java;
+
 public class Huffman1 {
     public static void main(String[] args) {
         Huffmaninput1 Huffmaninput = new Huffmaninput1();

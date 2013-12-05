@@ -1,3 +1,5 @@
+package ru.mai.is.tmp.students.R-Gnezdilov.Coursework2.src.main.java;
+
 public class HuffmanTree1 {
     public String[] Coding(int[] FrequencyOfSymbols) {
         String[] DecodingStroka = new String[FrequencyOfSymbols.length];

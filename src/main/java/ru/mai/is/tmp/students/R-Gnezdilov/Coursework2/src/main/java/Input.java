@@ -1,3 +1,5 @@
+package ru.mai.is.tmp.students.R-Gnezdilov.Coursework2.src.main.java;
+
 import java.io.*;
 
 public class Input {
