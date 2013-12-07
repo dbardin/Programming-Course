@@ -1,3 +1,4 @@
+package ru.mai.is.tmp.students.arybalko.Task_02;
 /**
  * @author arybalko
  * 4-й по порядку
