@@ -1,3 +1,5 @@
+package Translit.src.main.java.Transliterator;
+
 import java.util.HashMap;
 import java.util.Scanner;
 import java.lang.String;
@@ -5,7 +7,14 @@ import java.lang.String;
 public class Transliterator {
 
     public static void main(String[] args) {
-        System.out.println("Добро пожаловать в программу транслитерациии!");
+        System.out.println("Добро пожаловать в программу транслитерациии!\n");
+
+        System.out.println("Пример работы программы:");
+        String primer = "Съешь ещё этих мягких французских булок, да выпей чаю.";
+        System.out.println("Ваш текст: " + primer);
+        primer = transliterate(primer);
+        System.out.println("Транслитерированный текст: " + primer + "\n");
+
         System.out.println("Введите Ваш текст: ");
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();
@@ -22,7 +31,7 @@ public class Transliterator {
         charMap.put('Г', "G");
         charMap.put('Д', "D");
         charMap.put('Е', "E");
-        charMap.put('Ё', "E");
+        charMap.put('Ё', "Yo");
         charMap.put('Ж', "Zh");
         charMap.put('З', "Z");
         charMap.put('И', "I");
@@ -39,15 +48,15 @@ public class Transliterator {
         charMap.put('У', "U");
         charMap.put('Ф', "F");
         charMap.put('Х', "H");
-        charMap.put('Ц', "C");
+        charMap.put('Ц', "Ts");
         charMap.put('Ч', "Ch");
         charMap.put('Ш', "Sh");
-        charMap.put('Щ', "Sh");
-        charMap.put('Ъ', "'");
+        charMap.put('Щ', "Shch");
+        charMap.put('Ъ', "#");
         charMap.put('Ы', "Y");
         charMap.put('Ь', "'");
         charMap.put('Э', "E");
-        charMap.put('Ю', "U");
+        charMap.put('Ю', "Yu");
         charMap.put('Я', "Ya");
         charMap.put('а', "a");
         charMap.put('б', "b");
@@ -55,7 +64,7 @@ public class Transliterator {
         charMap.put('г', "g");
         charMap.put('д', "d");
         charMap.put('е', "e");
-        charMap.put('ё', "e");
+        charMap.put('ё', "yo");
         charMap.put('ж', "zh");
         charMap.put('з', "z");
         charMap.put('и', "i");
@@ -72,17 +81,17 @@ public class Transliterator {
         charMap.put('у', "u");
         charMap.put('ф', "f");
         charMap.put('х', "h");
-        charMap.put('ц', "c");
+        charMap.put('ц', "ts");
         charMap.put('ч', "ch");
         charMap.put('ш', "sh");
-        charMap.put('щ', "sh");
-        charMap.put('ъ', "'");
+        charMap.put('щ', "shch");
+        charMap.put('ъ', "#");
         charMap.put('ы', "y");
         charMap.put('ь', "'");
         charMap.put('э', "e");
-        charMap.put('ю', "u");
+        charMap.put('ю', "yu");
         charMap.put('я', "ya");
-        }
+    }
 
     public static String transliterate(String string) {
         StringBuilder transliteratedString = new StringBuilder();
