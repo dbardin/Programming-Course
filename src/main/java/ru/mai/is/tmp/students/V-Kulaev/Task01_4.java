@@ -8,7 +8,6 @@
 public class Homework01_4_1 {
     public static void main(String[] args){
         Input t=new Input();
-<<<<<<< HEAD
         int vvchislo;
         while(true) {
             String s=t.getUserInput("Введите число из промежутка [1;1000]");
@@ -21,7 +20,6 @@ public class Homework01_4_1 {
             System.out.println("Число "+vvchislo+" содержится в интервале (5;555)");
         } else {
             System.out.println("Число "+vvchislo+" не содержится в интервале (5;555)");
-=======
         int n;
         while(true) {
             String s=t.getUserInput("Введите число из промежутка [1;1000]");
@@ -34,7 +32,6 @@ public class Homework01_4_1 {
             System.out.println("Число "+n+" содержится в интервале (5;555)");
         } else {
             System.out.println("Число "+n+" не содержится в интервале (5;555)");
->>>>>>> 4f5d95edd47ca369ff0ab1632ed6a1bf6c339da1
         }
     }
 }
