@@ -9,7 +9,7 @@ abstract class Wild {
 	 
     
     protected void property() {
-    	System.out.println(name + " - “ип: wild; ќценка: " + Capacity);
+    	System.out.println(name + " - Class: wild; Rating: " + Capacity);
     }
     
 }
