@@ -5,17 +5,21 @@
  * Time: 19:28
  * To change this template use File | Settings | File Templates.
  */
-abstract public class Fruits implements Food {
- public  void cut(){}
+package ru.mai.is.tmp.students.azabolotnyi.homework;
+abstract public class Fruits implements Food   {
+
  private int Size;
     public int getSize(){
       return Size;
   }
     public void setSize(int Size){
-        if(Size>5){
+        if(Size>10){
         this.Size=Size;
-    } else this.Size=5;
+    } else this.Size=10;
 }
+
+
+
 }
 
 
