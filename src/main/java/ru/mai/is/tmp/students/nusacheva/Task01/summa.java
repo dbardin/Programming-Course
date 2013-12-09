@@ -1,3 +1,5 @@
+
+package ru.mai.is.tmp.students.nusacheva.Task01;
 import java.util.*;
 public class Summa {
     static Scanner reader= new Scanner(System.in);

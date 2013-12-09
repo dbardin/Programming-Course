@@ -1,3 +1,5 @@
+
+package ru.mai.is.tmp.students.nusacheva.Task01;
 import java.util.Scanner;
 public class Text {
     public static void main (String args[]){

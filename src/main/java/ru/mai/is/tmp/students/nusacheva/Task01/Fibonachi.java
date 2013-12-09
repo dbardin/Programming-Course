@@ -1,4 +1,5 @@
 
+package ru.mai.is.tmp.students.nusacheva.Task01;
 public class Fibonachi {
     public static void main (String args[]) {
         int summaDvuhChisel,chislo1=1,chislo2=1;

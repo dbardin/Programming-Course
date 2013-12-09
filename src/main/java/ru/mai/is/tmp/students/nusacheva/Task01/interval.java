@@ -1,4 +1,5 @@
 
+package ru.mai.is.tmp.students.nusacheva.Task01;
 public class Interval {
     public static void main (String args[]){
         int chislo;

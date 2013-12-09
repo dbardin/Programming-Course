@@ -1,4 +1,5 @@
 
+package ru.mai.is.tmp.students.nusacheva.Task01;
 import java.util.*;
 public class Chetnost {
     static Scanner reader= new Scanner(System.in);
