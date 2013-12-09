@@ -9,7 +9,7 @@ abstract class Domestic {
 	
     
    protected void property() {
-    	System.out.println(getName() + " - “ип: domestic; ќценка: " + Capacity);
+    	System.out.println(getName() + " - Class: domestic; Rating: " + Capacity);
     }
     
 }
