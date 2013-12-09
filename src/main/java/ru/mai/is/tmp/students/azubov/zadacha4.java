@@ -4,10 +4,10 @@ public class zadacha4 {
 		final int b = 1000;
 		int c = (int)(a + Math.random()*(b-a+1));
 		if (c >= 5 && c <= 555) {
-		System.out.println("×èñëî " + c + " ñîäåðæèòñÿ â èíòåðâàëå (5;555)");
+			System.out.println("Ð§Ð¸ÑÐ»Ð¾ " + c + " ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ñ‚ÑÑ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ (5;555)");
 		}
 		else {
-		System.out.println("×èñëî " + c + " íå ñîäåðæèòñÿ â èíòåðâàëå (5;555)");
+			System.out.println("Ð§Ð¸ÑÐ»Ð¾ " + c + " Ð½Ðµ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ñ‚ÑÑ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ (5;555)");
 		}
 	}
 }
