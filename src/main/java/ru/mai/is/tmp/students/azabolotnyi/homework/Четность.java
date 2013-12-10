@@ -9,11 +9,11 @@
 public class Четность {
     public static void main(String[] args){
         Scanner scan= new Scanner(System.in);
-        int n=scan.nextInt();
-        if(n%2==0){
-            System.out.print("Число " +n+ " четное");
+        int UserNum=scan.nextInt();
+        if(UserNum%2==0){
+            System.out.print("Число " +UserNum+ " четное");
         }
         else
-            System.out.print("Число " +n+ " нечетное");
+            System.out.print("Число " +UserNum+ " нечетное");
     }
 }

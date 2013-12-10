@@ -11,8 +11,8 @@ public class Number_n {
     public static void main(String[] args){
      Scanner scan= new Scanner(System.in);
 
-        int a = scan.nextInt();
-        int n=a/100+a/10%10+a%10;
-        System.out.println(n);
+        int n = scan.nextInt();
+        int SumOfNum=n/100+n/10%10+n%10;
+        System.out.println(SumOfNum);
     }
 }

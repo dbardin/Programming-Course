@@ -9,15 +9,15 @@
 public class Fibonachi {
     public static void main(String[] args){
         int n=10;
-      int a=1, b=1;
-        System.out.print(a+"  "+b);
+      int FirstNum=1, SecondNum=1;
+        System.out.print(FirstNum+"  "+SecondNum);
          int m=2;
         while(m<n){
-          int e=a+b;
-            a=b;
-            b=e;
+          int Summa=FirstNum+SecondNum;
+            FirstNum=SecondNum;
+            SecondNum=Summa;
             m++;
-            System.out.print("  "+e);
+            System.out.print("  "+Summa);
         }
 
     }
