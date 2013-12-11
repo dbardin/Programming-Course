@@ -3,7 +3,7 @@ public class Obuchenie {
 	public static void main(String[] args) {
 
 		class Input {
-			public String setUserInput(String prompt) {
+			public String getUserInput(String prompt) {
 				String inputLine = null;
 				System.out.print(" - "+prompt + " - ");
 				try {
@@ -18,28 +18,28 @@ public class Obuchenie {
 				}
 			}
 		
-		String[] spisok = {"as", "as well", "affect", "become", "remain", "develop", "development", "enable", "improve", "usually"};//Здесь задается набор слов
-		int x = spisok.length;//Считает количество слов в списке
+		String[] spisok = {"as", "as well", "affect", "become", "remain", "develop", "development", "enable", "improve", "usually"};//Р—РґРµСЃСЊ Р·Р°РґР°РµС‚СЃСЏ РЅР°Р±РѕСЂ СЃР»РѕРІ
+		int x = spisok.length;//РЎС‡РёС‚Р°РµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ РІ СЃРїРёСЃРєРµ
 		
-		String[] otveti = {"как", "так же", "влиять", "становиться", "оставаться", "развивать", "развитие", "давайть возможность", "улучшать", "обычно"}; //Ввод своего ответа
+		String[] otveti = {"РєР°Рє", "С‚Р°Рє Р¶Рµ", "РІР»РёСЏС‚СЊ", "СЃС‚Р°РЅРѕРІРёС‚СЊСЃСЏ", "РѕСЃС‚Р°РІР°С‚СЊСЃСЏ", "СЂР°Р·РІРёРІР°С‚СЊ", "СЂР°Р·РІРёС‚РёРµ", "РґР°РІР°Р№С‚СЊ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ", "СѓР»СѓС‡С€Р°С‚СЊ", "РѕР±С‹С‡РЅРѕ"}; //Р’РІРѕРґ СЃРІРѕРµРіРѕ РѕС‚РІРµС‚Р°
 		int x2 = otveti.length;
 		
 		while (x>0) {
-			x=x-1;//Так как счет в java начинается с 0 вычитаем 1 от значения
-			String word = spisok[x];//Присваиваем переменной слово из списка под номером х
-			System.out.print(word);//Вывод на экран английского слова
+			x=x-1;//РўР°Рє РєР°Рє СЃС‡РµС‚ РІ java РЅР°С‡РёРЅР°РµС‚СЃСЏ СЃ 0 РІС‹С‡РёС‚Р°РµРј 1 РѕС‚ Р·РЅР°С‡РµРЅРёСЏ
+			String word = spisok[x];//РџСЂРёСЃРІР°РёРІР°РµРј РїРµСЂРµРјРµРЅРЅРѕР№ СЃР»РѕРІРѕ РёР· СЃРїРёСЃРєР° РїРѕРґ РЅРѕРјРµСЂРѕРј С…
+			System.out.print(word);//Р’С‹РІРѕРґ РЅР° СЌРєСЂР°РЅ Р°РЅРіР»РёР№СЃРєРѕРіРѕ СЃР»РѕРІР°
 			
 			x2 = x2-1;
 			String rusWord = otveti[x2];
 			
 			Input f=new Input();
-			String perevod=f.setUserInput("Переведите слово");
+			String perevod=f.getUserInput("РџРµСЂРµРІРµРґРёС‚Рµ СЃР»РѕРІРѕ");
 			
-			if (rusWord==perevod) {//Если введенное слово соответствует правильному ответу
-				System.out.println(" - Ответ верный");//Вывести на экран
+			if (rusWord==perevod) {//Р•СЃР»Рё РІРІРµРґРµРЅРЅРѕРµ СЃР»РѕРІРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂР°РІРёР»СЊРЅРѕРјСѓ РѕС‚РІРµС‚Сѓ
+				System.out.println(" - РћС‚РІРµС‚ РІРµСЂРЅС‹Р№");//Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ
 			}
-			else {//Если введенное слово не соответствует правильному ответу
-				System.out.println(" - Ответ неверный");
+			else {//Р•СЃР»Рё РІРІРµРґРµРЅРЅРѕРµ СЃР»РѕРІРѕ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РїСЂР°РІРёР»СЊРЅРѕРјСѓ РѕС‚РІРµС‚Сѓ
+				System.out.println(" - РћС‚РІРµС‚ РЅРµРІРµСЂРЅС‹Р№");
 			}
 		}
 	}

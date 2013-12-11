@@ -1,12 +1,12 @@
 
 public class Chislo {
 	public static void main (String[] args) {
-		int n=123; //Задается число
-		if (n%2==0) { //Задается условие четности
-			System.out.print("Четное");
+		int n=123; //Р—Р°РґР°РµС‚СЃСЏ С‡РёСЃР»Рѕ
+		if (n%2==0) { //Р—Р°РґР°РµС‚СЃСЏ СѓСЃР»РѕРІРёРµ С‡РµС‚РЅРѕСЃС‚Рё
+			System.out.print("Р§РµС‚РЅРѕРµ");
 		}
 		else {
-			System.out.print("Нечетное");
+			System.out.print("РќРµС‡РµС‚РЅРѕРµ");
 		}
 	}
 
