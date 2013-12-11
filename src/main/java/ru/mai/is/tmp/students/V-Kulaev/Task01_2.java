@@ -5,6 +5,7 @@
  * Time: 10:00
  * To change this template use File | Settings | File Templates.
  */
+package ru.mai.is.tmp.students.V-Kulaev;
 public class Homework01_2_1 {
     public static void main(String[] args){
         Input t=new Input();

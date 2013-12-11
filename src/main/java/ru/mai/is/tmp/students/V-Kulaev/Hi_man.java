@@ -2,6 +2,7 @@
  *
  * @author V-Kulaev
  */
+package ru.mai.is.tmp.students.V-Kulaev;
 public class Hi_man {
 
     /**
