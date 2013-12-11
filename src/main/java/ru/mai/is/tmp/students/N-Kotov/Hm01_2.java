@@ -5,6 +5,8 @@
  * Time: 23:06
  * To change this template use File | Settings | File Templates.
  */
+package ru.mai.is.tmp.students.N-Kotov;
+
 public class Hm01_2 {
    public static void main(String[] args){
        Input t=new Input();

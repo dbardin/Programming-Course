@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,29 +7,32 @@ import java.util.Scanner;
  * Time: 16:25
  * To change this template use File | Settings | File Templates.
  */
+package ru.mai.is.tmp.students.N-Kotov;
+
 public class hm01_1 {
-
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        if (args.length == 0)
-        {
-            System.err.print("Ошибка!");
-        }
-        Scanner in = new Scanner(System.in);
-        while (in.hasNext())
-        {
-            String str = in.nextLine();
-            Scanner stroka = new Scanner(str);
-            for (String iterStr: args)
-                if ((str.toLowerCase().indexOf(iterStr.toLowerCase()) != -1) ||
-                        (stroka.findInLine(iterStr) != null))
-                {
-                    System.out.println(str);
-                    break;
-                }
-            stroka.close();
-
-        }
-        in.close();
+ public static void main(String[] args){
+                  Input i = new Input();
+                  String vvodargumenta;
+                  String[] strng = new String[7];
+                  while (true){
+                  vvodargumenta = i.getUserInput("введите аргумент");
+                  if (vvodargumenta == null){
+                  System.out.println("вы не ввели");
+                  }    else {break;}
+                  }
+                  for (int f=0;f<10;f++){
+                  while (true){
+                  strng[f] = i.getUserInput("введите");
+                  if (strng[f] == null) {
+                  System.out.println("вы не ввели");
+                  }    else {break;}
+                  }
+                  }
+                  for (int f = 0; f < 10; f++) {
+                  if (strng[f].contains(vvodargumenta)){
+                  System.out.println(strng[f]);
     }
-}
+    }
+
+    }
+    }
