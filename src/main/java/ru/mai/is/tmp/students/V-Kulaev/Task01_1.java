@@ -1,11 +1,8 @@
-﻿/**
- * Created with IntelliJ IDEA.
- * User: V_Kulaev
- * Date: 19.11.13
- * Time: 14:00
- * To change this template use File | Settings | File Templates.
+/**
+ * Created by Владислав on 11.12.13.
  */
 package ru.mai.is.tmp.students.V-Kulaev;
+
 public class Task01_1 {
     public static void main(String[] args){
         Input i = new Input();
@@ -16,16 +13,16 @@ public class Task01_1 {
             if (argument == null) {
                 System.out.println("Вы ввели пустую строку.");
             }    else {break;
-           }
+            }
         }
         for (int j = 0 ; j < 7; j++){//Вводим  7 строк, и проверяем ввели ли их
             while (true){
-              stroka[j] = i.getUserInput("Введите строку");
-              if (stroka[j] == null) {
-                System.out.println("Вы ввели пустую строку.");
-              }    else {
-          break; 
-      }
+                stroka[j] = i.getUserInput("Введите строку");
+                if (stroka[j] == null) {
+                    System.out.println("Вы ввели пустую строку.");
+                }    else {
+                    break;
+                }
             }
         }
         for (int j = 0; j < 7; j++) { //Проверяем содержат ли строки аргумент, и выводим строки, которые содержат аргумент
