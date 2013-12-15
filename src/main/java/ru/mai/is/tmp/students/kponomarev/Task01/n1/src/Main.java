@@ -1,11 +1,10 @@
+package grep;
 import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
  * Student: Клим Пономарев
  * Group: 4О-109Б
- * Date: 30.11.13
- * Time: 17:36
  */
 
 public class Main {

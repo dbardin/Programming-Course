@@ -1,4 +1,4 @@
-package Translit.src.main.java.Transliterator;
+package transliterator;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -9,17 +9,21 @@ public class Transliterator {
     public static void main(String[] args) {
         System.out.println("Добро пожаловать в программу транслитерациии!\n");
 
-        System.out.println("Пример работы программы:");
-        String primer = "Съешь ещё этих мягких французских булок, да выпей чаю.";
-        System.out.println("Ваш текст: " + primer);
-        primer = transliterate(primer);
-        System.out.println("Транслитерированный текст: " + primer + "\n");
+        test();
 
         System.out.println("Введите Ваш текст: ");
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();
         s = transliterate(s);
         System.out.println("Транслитерированный текст: " + s);
+    }
+
+    public static void test() {
+        System.out.println("Пример работы программы:");
+        String primer = "Съешь ещё этих мягких французских булок, да выпей чаю.";
+        System.out.println("Ваш текст: " + primer);
+        primer = transliterate(primer);
+        System.out.println("Транслитерированный текст: " + primer + "\n");
     }
 
     private static final HashMap<Character, String> charMap = new HashMap<Character, String>();

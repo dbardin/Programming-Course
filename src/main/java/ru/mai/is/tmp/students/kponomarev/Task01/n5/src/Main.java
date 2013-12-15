@@ -1,9 +1,9 @@
+package fibonacci;
+
 /**
  * Created with IntelliJ IDEA.
  * Student: Клим Пономарев
  * Group: 4О-109Б
- * Date: 30.11.13
- * Time: 18:13
  */
 
 public class Main {

@@ -1,10 +1,11 @@
+package random;
+
 /**
  * Created with IntelliJ IDEA.
  * Student: Клим Пономарев
  * Group: 4О-109Б
- * Date: 30.11.13
- * Time: 18:05
  */
+
 public class Main {
     public static void main(String args[]){
         final int a = 1;
