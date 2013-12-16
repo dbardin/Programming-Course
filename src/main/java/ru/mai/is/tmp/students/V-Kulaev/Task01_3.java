@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 package ru.mai.is.tmp.students.V-Kulaev;
-public class Homework01_3_1 {
+public class Task01_3 {
     public static void main(String[] args){
         Input t=new Input();
         String s=t.getUserInput("Введите число");
