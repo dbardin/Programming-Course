@@ -1,4 +1,4 @@
-package ru.mai.is.tmp.students.N-Kotov.Hierarchy;
+package ru.mai.is.tmp.students.N-Kotov.Hierarhy;
 
 public class Amphetamines extends Drugs {
     @Override
