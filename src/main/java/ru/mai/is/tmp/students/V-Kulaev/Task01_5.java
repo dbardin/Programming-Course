@@ -9,7 +9,7 @@
  * @author V-Kulaev
  */
 package ru.mai.is.tmp.students.V-Kulaev;
-public class Homework01_5 {
+public class Task01_5 {
     public static void main(String[] args){
        int Chisloper=1;//Первое число
         int Chislovtor=1;//Второе число
