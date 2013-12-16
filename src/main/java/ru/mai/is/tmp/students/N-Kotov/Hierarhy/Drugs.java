@@ -1,6 +1,6 @@
-package ru.mai.is.tmp.students.N-Kotov.Hierarchy;
+package ru.mai.is.tmp.students.N-Kotov.Hierarhy;
 
-abstract class Drugs {
+abstract class Drugs implements Preparation {
     protected String dependence;
 
     abstract void SingsOfUse();
