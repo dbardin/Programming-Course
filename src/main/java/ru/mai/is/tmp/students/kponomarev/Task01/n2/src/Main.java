@@ -1,4 +1,4 @@
-package sumofdigits;
+package ru.mai.is.tmp.students.kponomarev.Task01.n2.src;
 import java.util.Scanner;
 
 /**

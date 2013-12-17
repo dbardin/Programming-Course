@@ -1,12 +1,10 @@
-package evenornot;
+package ru.mai.is.tmp.students.kponomarev.Task01.n3.src;
 import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
  * Student: Клим Пономарев
  * Group: 4О-109Б
- * Date: 30.11.13
- * Time: 17:56
  */
 
 public class Main {

@@ -1,4 +1,4 @@
-package fibonacci;
+package ru.mai.is.tmp.students.kponomarev.Task01.n5.src;
 
 /**
  * Created with IntelliJ IDEA.

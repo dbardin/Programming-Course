@@ -1,4 +1,4 @@
-package grep;
+package ru.mai.is.tmp.students.kponomarev.Task01.n1.src;
 import java.util.Scanner;
 
 /**

@@ -1,4 +1,4 @@
-package random;
+package ru.mai.is.tmp.students.kponomarev.Task01.n4.src;
 
 /**
  * Created with IntelliJ IDEA.
