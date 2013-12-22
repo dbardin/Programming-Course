@@ -1,4 +1,5 @@
-package ru.mai.is.tmp.students.kponomarev.Translit.src.test.java;
+//package ru.mai.is.tmp.students.kponomarev.Translit.src.test.java;
+
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import junit.textui.TestRunner;
@@ -18,8 +19,8 @@ public class testTransliterator extends TestCase {
 
     public void testMain() {
         String primer = "Съешь ещё этих мягких французских булок, да выпей чаю.";
-        ru.mai.is.tmp.students.kponomarev.Translit.src.main.java.Transliterator Translit = new ru.mai.is.tmp.students.kponomarev.Translit.src.main.java.Transliterator();
-        //Transliterator Translit = new Transliterator()
-        assertTrue(Translit.Primer(primer) == "S#esh' eshchyo etih myagkih frantsuzskih bulok, da vypei chayu.");
+        //ru.mai.is.tmp.students.kponomarev.Translit.src.main.java.Transliterator Translit = new ru.mai.is.tmp.students.kponomarev.Translit.src.main.java.Transliterator();
+        Transliterator Translit = new Transliterator();
+        assertTrue(Translit.getTranslit(primer).equals("S#esh' eshchyo etih myagkih frantsuzskih bulok, da vypei chayu."));
     }
 }

@@ -1,36 +1,40 @@
-package ru.mai.is.tmp.students.kponomarev.Translit.src.main.java;
-
+//package ru.mai.is.tmp.students.kponomarev.Translit.src.main.java;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.lang.String;
 
 public class Transliterator {
 
-    private String stroka;
-    public String Primer(String primer) {
-        stroka = primer;
-        return transliterate(stroka);
+    public String getTranslit(String primer) {
+        return transliterate(primer);
     }
 
     public static void main(String[] args) {
-        System.out.println("Добро пожаловать в программу транслитерациии!\n");
-
-        //test();
-
-        System.out.println("Введите Ваш текст: ");
         Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
-        s = transliterate(s);
-        System.out.println("Транслитерированный текст: " + s);
-    }
+        System.out.println("Добро пожаловать в программу транслитерациии!\n");
+        int select = 0;
+        while (!(select == 1 || select == 2 || select == 3)) {
+        System.out.println("Если Вы хотите транслитерировать файл, введите 1");
+        System.out.println("Для ввода текста с клавиатуры, введите 2");
+        System.out.println("Для выхода из программы, введите 3");
+        System.out.print("Ввод: ");
+        select = scan.nextInt();
+        }
 
-    //public static void test() {
-    //    System.out.println("Пример работы программы:");
-    //    String primer = "Съешь ещё этих мягких французских булок, да выпей чаю.";
-    //    System.out.println("Ваш текст: " + primer);
-    //    primer = transliterate(primer);
-    //    System.out.println("Транслитерированный текст: " + primer + "\n");
-    //}
+        switch (select) {
+            case 1:
+                TextFile.main(args);
+                break;
+            case 2:
+                System.out.println("Введите Ваш текст: ");
+                Scanner ssc = new Scanner(System.in);
+                String s = ssc.nextLine();
+                System.out.println("Транслитерированный текст: " + transliterate(s));
+                break;
+            case 3:
+                break;
+        }
+    }
 
     private static final HashMap<Character, String> charMap = new HashMap<Character, String>();
 
@@ -103,7 +107,7 @@ public class Transliterator {
         charMap.put('я', "ya");
     }
 
-    public static String transliterate(String string) {
+    private static String transliterate(String string) {
         StringBuilder transliteratedString = new StringBuilder();
         for (int i = 0; i < string.length(); i++) {
             Character ch = string.charAt(i);
