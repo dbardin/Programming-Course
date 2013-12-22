@@ -3,7 +3,8 @@
  * 5-й по порядку
  */
 package ru.mai.is.tmp.students.arybalko.Task_02;
-public class CoffeeTable extends Table implements Home{
+public class CoffeeTable extends Furniture {
+	String Type = ("Журнальный столик");
 	private int Lenght;
 	public int getLenght(){
 		return Lenght;
@@ -44,7 +45,6 @@ public class CoffeeTable extends Table implements Home{
 	}
 	}
 	public void Creation(){
-		String Type = ("Журнальный столик");
 		System.out.println ("Тип созданной мебели: "+Type);
 		System.out.println ("Габариты (ДхШхВ): "+getLenght()+"x"+getWidht()+"x"+getHeight());
 	}

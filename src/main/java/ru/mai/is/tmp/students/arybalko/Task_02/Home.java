@@ -4,5 +4,5 @@
  */
 package ru.mai.is.tmp.students.arybalko.Task_02;
 public interface Home {
-	public void Creation ();
+	public void Creation();
 }

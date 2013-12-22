@@ -1,9 +1,10 @@
 /**
  * @author arybalko
- * 7-й по порядку
+ * 4-й по порядку
  */
 package ru.mai.is.tmp.students.arybalko.Task_02;
-public class DiningChair extends Chair implements Home {
+public class DiningChair extends Furniture {
+	String Type = ("Стул под обеденный стул");
 	private int Lenght;
 	public int getLenght(){
 		return Lenght;
