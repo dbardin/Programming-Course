@@ -4,6 +4,7 @@ import java.util.*;
 
 public class TextFile extends ArrayList<String> {
 
+    //static ru.mai.is.tmp.students.kponomarev.Translit.src.main.java.Transliterator Translit = new ru.mai.is.tmp.students.kponomarev.Translit.src.main.java.Transliterator();
     static Transliterator Translit = new Transliterator();
 
     //Чтение файла как одной строки
