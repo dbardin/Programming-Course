@@ -24,8 +24,6 @@ public class Insert {
 	}
 	
 	
-	// http://docs.oracle.com/javase/6/docs/api/java/util/LinkedList.html
-	// http://docs.oracle.com/javase/6/docs/api/java/util/Queue.html
-	// http://stackoverflow.com/questions/9580457/fifo-class-in-java
+
 	
 
