@@ -2,6 +2,7 @@ package ru.mai.is.tmp.students.PKlyuev.Canban.Canban_maven;
 
 import java.util.LinkedList;
 import org.junit.framework.Assert;
+
 import java.util.Queue;
 
 public class TestCanban {
