@@ -65,18 +65,4 @@ public class TextFile extends ArrayList<String> {
             throw new RuntimeException(e);
         }
     }
-
-    public static void main(String[] args) {
-        //System.out.println("Введите путь к файлу: ");
-        //Scanner scan = new Scanner(System.in);
-        //String fileName = scan.nextLine();
-        //String fileName = "C:/file.txt";
-        String fileName = "TextFile.txt";
-        String file = read(fileName);
-        //String file = read("TextFile.txt");
-        write("translited_" + fileName, file);
-        TextFile text = new TextFile("translited_" + fileName);
-        text.write("translited_" + fileName);
-        System.out.println("Результат сохранен в файле " + "translited_" + fileName);
-    }
 }

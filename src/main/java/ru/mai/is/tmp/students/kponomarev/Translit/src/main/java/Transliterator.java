@@ -22,15 +22,27 @@ public class Transliterator {
         }
 
         switch (select) {
+
             case 1:
-                TextFile.main(args);
+                //System.out.println("Введите путь к файлу: ");
+                //Scanner scan = new Scanner(System.in);
+                //String fileName = scan.nextLine();
+                String fileName = "TextFile.txt";
+                TextFile File = new TextFile(fileName);
+                String file = File.read(fileName);
+                File.write("translited_" + fileName, file);
+                TextFile text = new TextFile("translited_" + fileName);
+                text.write("translited_" + fileName);
+                System.out.println("Результат сохранен в файле " + "translited_" + fileName);
                 break;
+
             case 2:
                 System.out.println("Введите Ваш текст: ");
                 Scanner ssc = new Scanner(System.in);
                 String s = ssc.nextLine();
                 System.out.println("Транслитерированный текст: " + transliterate(s));
                 break;
+
             case 3:
                 break;
         }
