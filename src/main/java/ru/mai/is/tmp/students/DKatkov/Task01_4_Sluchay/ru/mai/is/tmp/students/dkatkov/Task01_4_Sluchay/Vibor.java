@@ -1,4 +1,4 @@
-
+package ru.mai.is.tmp.students.dkatkov.Task01_4_Sluchay;
 public class Vibor {
 	public static void main (String[] args) {
 		int n=256; //Задается число

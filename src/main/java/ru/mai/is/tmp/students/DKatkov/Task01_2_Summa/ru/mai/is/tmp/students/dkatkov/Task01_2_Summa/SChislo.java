@@ -1,4 +1,4 @@
-
+package ru.mai.is.tmp.students.dkatkov.Task01_2_Summa;
 public class SChislo {
 	public static void main (String[] args) {
 		int n = 487, x, y, z, s; //Задается число

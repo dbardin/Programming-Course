@@ -1,4 +1,4 @@
-package stroki;
+package ru.mai.is.tmp.students.dkatkov.Task01_1_Stroki;
 import java.util.*;
 public class Stroki {
   public static void main(String[] args) {
