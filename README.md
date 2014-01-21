@@ -1,6 +1,6 @@
 <h2>Курс лекций "Основы программирования"</h2>
 
-Материалы курса будут появлятся в разделе <a href="https://github.com/dbardin/tmp_course/blob/master/lectures.md">Лекции</a> 
+Материалы курса появятся разделе <a href="https://github.com/dbardin/tmp_course/blob/master/lectures">Лекции</a> после обновления
 
 В папке <a href="https://github.com/dbardin/tmp_course/tree/master/tasks">tasks</a> будут появляться задания.
 
